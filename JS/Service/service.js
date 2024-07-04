@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/productos';
+const url = 'https://api-fake-amber.vercel.app/productos';
 
 const obtenerProductos = async ()=>{
     const reponse = await fetch(url);
@@ -19,7 +19,7 @@ const AgregarProducto = async (producto) =>{
 };
 
 const eliminarProducto = async (id) => {
-    await fetch(`http://localhost:3000/productos/${id}`, {
+    await fetch(`https://api-fake-amber.vercel.app/productos/${id}`, {
         method: 'DELETE'
     });
 };
