@@ -37,7 +37,7 @@ const CargarProducto = async () => {
 
 
 const Eliminar = async (e) => {
-    e.preventDefault();
+    
     console.log(e.target.classList.contains('eliminar'));
     if (e.target.classList.contains('eliminar')) {
         const id = e.target.dataset.id;
@@ -52,7 +52,7 @@ const Eliminar = async (e) => {
 
 
 Productoform.addEventListener('submit', async (e) => {
-    e.preventDefault();
+   
     const productos = await obtenerProductos();
 
     const ValidarId = productos.map(producto => parseInt(producto.id, 10));

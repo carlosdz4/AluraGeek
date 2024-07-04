@@ -1,16 +1,16 @@
 {
   "productos": [
     {
-      "id": "-Infinity",
-      "nombre": "Amiibo Sonic SSB",
-      "precio": "2095.00",
-      "imagen": "https://www.powergamesenlinea.com/_sh/18/1878.webp"
+      "id": "NaN",
+      "nombre": " Pokémon Let's Go, Pikachu",
+      "precio": "3595.00",
+      "imagen": "https://www.powergamesenlinea.com/_sh/18/1883.webp"
     },
     {
       "id": "NaN",
-      "nombre": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS - PS5",
-      "precio": "3495.00",
-      "imagen": "https://www.powergamesenlinea.com/_sh/18/1832.webp"
+      "nombre": "Amiibo Young Link SSB",
+      "precio": "2095.00",
+      "imagen": "https://www.powergamesenlinea.com/_sh/18/1879.webp"
     }
   ]
 }
