@@ -2,15 +2,9 @@
   "productos": [
     {
       "id": "NaN",
-      "nombre": " Pokémon Let's Go, Pikachu",
+      "nombre": "Super Mario RPG",
       "precio": "3595.00",
-      "imagen": "https://www.powergamesenlinea.com/_sh/18/1883.webp"
-    },
-    {
-      "id": "NaN",
-      "nombre": "Amiibo Young Link SSB",
-      "precio": "2095.00",
-      "imagen": "https://www.powergamesenlinea.com/_sh/18/1879.webp"
+      "imagen": "https://www.powergamesenlinea.com/_sh/18/1830.webp"
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { AgregarProducto, eliminarProducto, obtenerProductos } from "./Controller/service.js";
+import { AgregarProducto, eliminarProducto, obtenerProductos } from "./Service/service.js";
 
 
 
