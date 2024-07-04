@@ -42,7 +42,7 @@ const Eliminar = async (e) => {
     if (e.target.classList.contains('eliminar')) {
         const id = e.target.dataset.id;
         await eliminarProducto(id);
-        CargarProducto();
+        
     }
 }
 
@@ -78,7 +78,7 @@ else{
 
     
     await AgregarProducto(producto);
-    CargarProducto();
+  
     Productoform.reset();
 });
 
