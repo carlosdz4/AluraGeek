@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49fabc24c1.js" crossorigin="anonymous"></script>
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="headeContainer">
+        <img src="./assets/Corazonlogo.png" class="logo" alt="logo">
+        <h2 class="titulo">AluraGeek</h2>
+    </header>
+    <main class="mainContainer">
+        <div class="ProductoContainer">
+            <h1>Mis Productos</h1>
+            <div class="cardContainer" data-producto>
+
+            </div>
+        </div>
+        <div class="FormularioContainer">
+            <h1>Agregar Productos:</h1>
+            <form action="submit" data-form>
+                <div class="textContainer">
+                    <input data-nombre type="text" placeholder="nombre..." required>
+                    <input data-precio type="number" placeholder="precio..." required>
+                    <input data-imagen type="text" placeholder="imagen..." required>
+                </div>
+                <div class="btnContainer">
+                    <button type="submit" class="boton">Enviar</button>
+                    <button type="reset" class="boton_limpiar">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footerContainer">
+        <div class="footerTitulo">
+            <img src="./assets/Corazonlogo.png" class="logo" alt="logo">
+            <h2 class="titulo">AluraGeek</h2>
+
+        </div>
+        <div class="footerTexto">
+            <h2>Desarollado por Carlos Shephard</h2>
+            <h3> Alura Latam- 2024</h3>
+           <a href="https://www.linkedin.com/in/carlos-shephard/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a> 
+           <a href="https://github.com/carlosdz4"><i class="fa-brands fa-github" style="color: #ffffff;"></i></i></a> 
+        </div>
+    </footer>
+
+    <script type="module" src="./JS/Main.js"></script>
+
+</body>
+
+</html>
