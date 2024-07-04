@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
 const Productodata = document.querySelector('[data-producto]');
 const Productoform = document.querySelector('[data-form]');
 
-const eliminarproducto = document.querySelector(".eliminar");
+
 
 const CargarProducto = async () => {
     const productos = await obtenerProductos();
-
+    Productodata.innerHTML = '';
     productos.forEach(element => {
 
-        console.log(element);
+        
         const Productocard = document.createElement('div');
         Productocard.classList.add('card');
         Productocard.innerHTML = `
@@ -42,7 +42,7 @@ const Eliminar = async (e) => {
     if (e.target.classList.contains('eliminar')) {
         const id = e.target.dataset.id;
         await eliminarProducto(id);
-        
+        CargarProducto();
     }
 }
 
@@ -78,7 +78,7 @@ else{
 
     
     await AgregarProducto(producto);
-  
+    CargarProducto();
     Productoform.reset();
 });
 
